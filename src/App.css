@@ -1,0 +1,67 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.image1 {
+
+    margin: 0;
+    padding: 0em;
+    background: url("./picture/wix2.jpg");
+    width: 100vw;
+    height : 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+.image2 { 
+    height:100px;
+    margin: 400px 0px 0px 0px;
+    text-align: center;
+    padding: 20px 20px 80px 20px;
+    background-color:rgba(192, 192, 192, 0.771);
+    font-size:60px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px
+}
+
+.gettoknowme {
+    height:250px;
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+    background-color:rgba(0, 0, 0, 0.771);
+    font-size:20px;
+    position: relative;
+}
+
+
+.professionalhistory{
+    height:1500px;
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+    background-color:rgba(148, 11, 11, 0.658);
+    font-size:20px;
+
+}
+
+li {
+    list-style-position: outside;
+
+}
+
+.ritz{
+    position: absolute;
+    left: auto;
+}
