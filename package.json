@@ -1,5 +1,5 @@
 {
-  "start": "node server/server.js"
+  "start": "node server/server.js",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
