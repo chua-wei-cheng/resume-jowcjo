@@ -47,7 +47,7 @@ html,body
 
 
 .professionalhistory{
-    height:1500px;
+    height:800px;
     margin: 0px;
     text-align: center;
     padding: 0px;
@@ -65,3 +65,141 @@ li {
     position: absolute;
     left: auto;
 }
+
+
+.academyexperience{
+    height:350px;
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+    background-color:rgba(0, 0, 0, 0.771);
+    font-size:20px;
+    position: relative;
+}
+
+
+
+
+.project {
+    height:auto;
+    margin: 0px;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    background-color:rgba(148, 11, 11, 0.658);
+    font-size:20px;
+
+  }
+
+
+.python{
+
+    margin: 0;
+    padding: 0em;
+    background: url("./picture/maze4.JPG");
+    width: 100vw;
+    height : 50vh;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.python2 { 
+    height:100px;
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    padding: 20px 20px 80px 20px;
+    background-color:rgba(192, 192, 192, 0.771);
+    font-size:20px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px
+}
+
+
+
+
+
+.dsai{
+
+    margin: 0;
+    padding: 0em;
+    background-color:rgba(0, 0, 0, 0.771);
+    width: 100vw;
+    height : 50vh;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.dsai2 { 
+    height:100px;
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    padding: 20px 20px 80px 20px;
+    background-color:rgba(192, 192, 192, 0.771);
+    font-size:20px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px
+}
+
+
+
+.htb{
+
+    margin: 0;
+    padding: 0em;
+    background: url("./picture/htb.JPG");
+    width: 100vw;
+    height : 50vh;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.htb2 { 
+    height:100px;
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    padding: 20px 20px 80px 20px;
+    background-color:rgba(192, 192, 192, 0.771);
+    font-size:20px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px
+}
+
+
+.skill { 
+    height:350px;
+    margin: 0px;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    background-color:rgba(0, 0, 0, 0.771);
+    color: white;
+    font-size:20px;
+    position: relative;
+}
+    
+
+
+.link { 
+    height:150px;
+    margin: 0px;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    background-color:rgb(77, 77, 212);
+    color: black;
+    font-size:20px;
+    position: relative;
+}
+    

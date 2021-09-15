@@ -18,7 +18,7 @@
     "concurrently": "^4.0.1"
   },
   "scripts": {
-	"start": "concurrently \"react-scripts start\" \"node index\"",
+	"start": "react-scripts start",
 	"heroku-postbuild": "react-scripts build",
     "build": "react-scripts build",
     "test": "react-scripts test",
