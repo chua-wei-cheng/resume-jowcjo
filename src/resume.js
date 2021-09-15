@@ -3,21 +3,27 @@
 //import App from './App';
 import React from 'react';
 import  './App.css';
-
+import { useState, useEffect } from "react";
 
 //by default runs after every re-render
 // cleanup function
 // second parameter 
 
+
+
+
 const UseEffectBasics = () => {
+	const size = useWindowSize();
 	return(
 		<>
-		<h1>Hello World </h1>
+		
+		<h1 style={{textAlign:"center"}}>Welcome to Jowcjo's resume</h1>
 		<div className="image1">
 			<div className="image2">
 				Chua Wei Cheng<br />
 				<div style={{fontSize:'40px'}}>
-					Hello
+					PORTFOLIO
+					{size.width}px / {size.height}px
 				</div>
 			</div>
 		</div>
@@ -25,19 +31,19 @@ const UseEffectBasics = () => {
 			<div style={{padding:"15px 0px 0px 0px", color:"gold",fontSize:'40px'}}>
 				GET TO KNOW YOU!!
 			</div>
-			<div style={{padding:"30px 50px 20px 0px", color:"white",fontSize:'15px'}}>
+			<div style={{padding:"30px 00px 20px 0px", color:"white",fontSize:'15px'}}>
 				My Background
 			</div>
-			<div style={{padding:"5px 30px 50px 0px", color:"white",fontSize:'15px',position:'absolute',right:'0px',left:'0px',bottom:'0px'}}>
+			<div style={{padding:"5px 0px 50px 0px", color:"white",fontSize:'15px',position:'absolute',right:'0px',left:'0px',bottom:'0px'}}>
 
 Currently a year 4 student from National Technological University, very deeply interested in the world of <br />computing and coding related stuff. I am looking for an internship to hopefully be able to enhance my skills in  <br /> programming especially in data science and web developing
 			</div>
 		</div>
 		<div className = "professionalhistory">
-			<div style={{padding:"10px 50px 20px 0px",color:"white",fontSize:'40px'}}>
+			<div style={{padding:"10px 0px 20px 0px",color:"white",fontSize:'40px'}}>
 				PROFESSIONAL HISTORY
 			</div>
-			<div style={{padding:"0px 50px 20px 0px", color:"white",fontSize:'15px'}}>
+			<div style={{padding:"0px 00px 20px 0px", color:"white",fontSize:'20px'}}>
 				My Qualifications
 			</div>
 			<div style={{padding:"35px 50px 50px 120px", color:"white",fontSize:'15px',position:'relative'}}>
@@ -47,7 +53,7 @@ Currently a year 4 student from National Technological University, very deeply i
 				<div style={{position:'absolute',fontSize:'20px',marginLeft:'250px'}}>
 					SERVER, RITZ CARLTON
 				</div>
-				<div style={{textAlign:'left',position:'absolute',fontSize:'20px',marginLeft:'600px'}}>
+				<div style={{textAlign:'left',fontSize:'20px',marginLeft:'600px'}}>
 					<dl>
 						<li>Exceptional interpersonal and team building skills with an aptitude for building rapport with a diverse range of customers, managers, and colleagues.</li>
 						<li>Dedicated to ensuring customer satisfaction by remaining accessible and friendly.</li>
@@ -56,7 +62,7 @@ Currently a year 4 student from National Technological University, very deeply i
 					</dl>
 				</div>
 			</div>
-			<div style={{padding:"200px 50px 50px 120px", color:"white",fontSize:'15px',position:'relative'}}>
+			<div style={{padding:"0px 50px 50px 120px", color:"white",fontSize:'15px',position:'relative'}}>
 				<div style={{position:'absolute',left:'100px'}}>
 					August 2020 – December 2020
 				</div>
@@ -78,10 +84,10 @@ Currently a year 4 student from National Technological University, very deeply i
 			<div style={{padding:"15px 0px 0px 0px", color:"gold",fontSize:'40px'}}>
 				ACADEMIC EXPERIENCE
 			</div>
-			<div style={{padding:"30px 50px 20px 0px", color:"white",fontSize:'15px'}}>
+			<div style={{padding:"30px 00px 20px 0px", color:"white",fontSize:'15px'}}>
 				My Studies
 			</div>
-			<div style={{padding:"35px 50px 50px 120px", color:"white",fontSize:'15px',position:'relative'}}>
+			<div style={{padding:"35px 00px 50px 120px", color:"white",fontSize:'15px',position:'relative'}}>
 				<div style={{position:'absolute',left:'100px'}}>
 					Aug 2018 - May 2022
 				</div>
@@ -107,7 +113,7 @@ Currently a year 4 student from National Technological University, very deeply i
 
 		<div className = "python" style={{padding:"15px 0px 0px 0px", color:"gold",fontSize:'40px'}}>
 			PYTHON
-			<div className = "python2" style={{padding:"15px 0px 0px 0px", color:"gold",fontSize:'15px'}}>
+			<div className = "python2" style={{padding:"15px 0px 0px 0px", color:"white",fontSize:'20px'}}>
 				Maze solver with a customized depth-first-search algorithm.<br />
 
 				Web application (Django + React) with a login page to run a tkinter application<br /> with it.<br />
@@ -119,15 +125,15 @@ Currently a year 4 student from National Technological University, very deeply i
 
 		<div className = "dsai" style={{padding:"15px 0px 0px 0px", color:"gold",fontSize:'40px'}}>
 			DATA SCIENCE AND AI
-			<div className = "dsai2" style={{padding:"15px 0px 0px 0px", color:"gold",fontSize:'40px'}}>
-				Processed dataset of epilepsy occurrences with AI models such as transfer learning, regression learning, decision tree, logistic regression, support vector machine.
+			<div className = "dsai2" style={{padding:"15px 0px 0px 0px", color:"white",fontSize:'20px'}}>
+				Processed dataset of epilepsy occurrences with AI models<br />such as transfer learning, regression learning, decision tree, <br />logistic regression, support vector machine.
 			</div>
 		</div>
 			
 		<div className = "htb" style={{padding:"15px 0px 0px 0px", color:"gold",fontSize:'40px'}}>
 			HACKTHEBOX (USERNAME: JOWCJO)
-			<div className = "htb2" style={{padding:"15px 0px 0px 0px", color:"gold",fontSize:'40px'}}>
-				Managed to successfully root 10 retired machine/hacking systems.
+			<div className = "htb2" style={{padding:"15px 0px 0px 0px", color:"white",fontSize:'20px'}}>
+				Managed to successfully root 10 retired<br /> machine/hacking systems.
 			</div>
 		</div>
 
@@ -155,14 +161,14 @@ Currently a year 4 student from National Technological University, very deeply i
 
 		<div className = 'link'>
 			<div>
-				email: chuaweicheng@hotmail.com<br />
+				Email: chuaweicheng@hotmail.com<br />
 				84817407(prefer to whatsapp)
 			</div>
 			<div>
 				<a href="https://www.linkedin.com/in/chua-wei-cheng/">click down for linkedin</a>
 			</div>
 			<div>
-				©2020 by Jowcjo. Proudly created with <del>Wix</del>jowcjo.com
+				©2020 by Jowcjo. Proudly created with <del>Wix</del><b>jowcjo</b>.com
 			</div>
 		</div>
 
@@ -172,3 +178,32 @@ Currently a year 4 student from National Technological University, very deeply i
 };
 
 export default UseEffectBasics
+
+
+
+// Hook
+function useWindowSize() {
+	// Initialize state with undefined width/height so server and client renders match
+	// Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
+	const [windowSize, setWindowSize] = useState({
+	  width: undefined,
+	  height: undefined,
+	});
+	useEffect(() => {
+	  // Handler to call on window resize
+	  function handleResize() {
+		// Set window width/height to state
+		setWindowSize({
+		  width: window.innerWidth,
+		  height: window.innerHeight,
+		});
+	  }
+	  // Add event listener
+	  window.addEventListener("resize", handleResize);
+	  // Call handler right away so state gets updated with initial window size
+	  handleResize();
+	  // Remove event listener on cleanup
+	  return () => window.removeEventListener("resize", handleResize);
+	}, []); // Empty array ensures that effect is only run on mount
+	return windowSize;
+  }
