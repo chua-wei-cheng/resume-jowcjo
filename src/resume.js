@@ -3,7 +3,7 @@
 //import App from './App';
 import React from 'react';
 import  './App.css';
-import { useState, useEffect } from "react";
+
 
 //by default runs after every re-render
 // cleanup function
@@ -13,7 +13,7 @@ import { useState, useEffect } from "react";
 
 
 const UseEffectBasics = () => {
-	const size = useWindowSize();
+
 
 
 	return(
@@ -25,7 +25,6 @@ const UseEffectBasics = () => {
 				Chua Wei Cheng<br />
 				<div style={{fontSize:'40px'}}>
 					PORTFOLIO
-					{size.width}px / {size.height}px
 				</div>
 			</div>
 		</div>
@@ -41,7 +40,7 @@ const UseEffectBasics = () => {
 Currently a year 4 student from National Technological University, very deeply interested in the world of <br />computing and coding related stuff. I am looking for an internship to hopefully be able to enhance my skills in  <br /> programming especially in data science and web developing
 			</div>
 		</div>
-		<div className = "professionalhistory">
+		<div className = "professionalhistory" style={{whiteSpace:"nowrap",overflow:"auto"}}>
 			<div style={{padding:"10px 0px 20px 0px",color:"white",fontSize:'40px'}}>
 				PROFESSIONAL HISTORY
 			</div>
@@ -55,12 +54,12 @@ Currently a year 4 student from National Technological University, very deeply i
 				<div style={{position:'absolute',fontSize:'20px',marginLeft:'250px'}}>
 					SERVER, RITZ CARLTON
 				</div>
-				<div style={{textAlign:'left',fontSize:'20px',marginLeft:'600px'}}>
+				<div style={{textAlign:'left',fontSize:'20px',marginLeft:'600px',whiteSpace: "nowrap"}}>
 					<dl>
-						<li>Exceptional interpersonal and team building skills with an aptitude for building rapport with a diverse range of customers, managers, and colleagues.</li>
-						<li>Dedicated to ensuring customer satisfaction by remaining accessible and friendly.</li>
-						<li>Success multitasking while remaining professional and courteous in fast-paced environments.</li>
-						<li>Collaborated with a team to assure food is served timely and maintain customer satisfaction.</li>
+						<li>Exceptional interpersonal and team building skills with<br /> an aptitude for building rapport with a diverse range of customers,<br /> managers, and colleagues.</li>
+						<li>Dedicated to ensuring customer satisfaction by remaining<br /> accessible and friendly.</li>
+						<li>Success multitasking while remaining professional and<br />courteous in fast-paced environments.</li>
+						<li>Collaborated with a team to assure food is served timely<br /> and maintain customer satisfaction.</li>
 					</dl>
 				</div>
 			</div>
@@ -73,16 +72,16 @@ Currently a year 4 student from National Technological University, very deeply i
 				</div>
 				<div style={{textAlign:'left',position:'absolute',fontSize:'20px',marginLeft:'600px'}}>
 					<dl>
-						<li>Designed a data structure/model with external manufacturing dataset for 6 products that enable easy data extraction for analysis and reporting which saves ~80% of the time for other test engineers who previously had to manually analyse the data.</li>
-						<li>Utilised the data to check for anomaly in machine to ensure that any irregularity is captured quickly to maximise production and reduce downtime.</li>
-						<li>Used python for data processing and have experience in storing large data(5000+ CSV files) in MySQL</li>
-						<li>Proposed and spearheaded a timesaving tkinter app to reduce ~80% of the time needed to do weekly report that is been done manually previously</li>
+						<li>Designed a data structure/model with external manufacturing<br /> dataset for 6 products that enable easy data extraction for analysis<br /> and reporting which saves ~80% of the time for other test engineers<br /> who previously had to manually analyse the data.</li>
+						<li>Utilised the data to check for anomaly in machine to ensure<br /> that any irregularity is captured quickly to maximise production<br /> and reduce downtime.</li>
+						<li>Used python for data processing and have experience in<br /> storing large data(5000+ CSV files) in MySQL</li>
+						<li>Proposed and spearheaded a timesaving tkinter app to<br /> reduce ~80% of the time needed to do weekly report that is been<br /> done manually previously</li>
 					</dl>
 				</div>
 			</div>
 		</div>
 
-		<div className = "academyexperience">
+		<div className = "academyexperience" style={{whiteSpace:"nowrap",overflow:"auto"}}>
 			<div style={{padding:"15px 0px 0px 0px", color:"gold",fontSize:'40px'}}>
 				ACADEMIC EXPERIENCE
 			</div>
@@ -100,7 +99,7 @@ Currently a year 4 student from National Technological University, very deeply i
 					<dl>
 						<li>Bachelor of Material Science and Engineering</li>
 						<li>CAP:3.85</li>
-						<li>Relevant Modules: Introduction to computational thinking(A+), Introduction to Data Science and Artificial Intelligence(A)</li>
+						<li>Relevant Modules: Introduction to computational thinking(A+),<br /> Introduction to Data Science and Artificial Intelligence(A)</li>
 					</dl>
 				</div>
 			</div>
@@ -115,7 +114,7 @@ Currently a year 4 student from National Technological University, very deeply i
 
 		<div className = "python" style={{padding:"15px 0px 0px 0px", color:"gold",fontSize:'40px'}}>
 			PYTHON
-			<div className = "python2" style={{padding:"15px 0px 0px 0px", color:"white",fontSize:'20px'}}>
+			<div className = "python2" style={{padding:"15px 0px 20px 0px", color:"white",fontSize:'20px'}}>
 				Maze solver with a customized depth-first-search algorithm.<br />
 
 				Web application (Django + React) with a login page to run a tkinter application<br /> with it.<br />
@@ -127,14 +126,14 @@ Currently a year 4 student from National Technological University, very deeply i
 
 		<div className = "dsai" style={{padding:"15px 0px 0px 0px", color:"gold",fontSize:'40px'}}>
 			DATA SCIENCE AND AI
-			<div className = "dsai2" style={{padding:"15px 0px 0px 0px", color:"white",fontSize:'20px'}}>
+			<div className = "dsai2" style={{padding:"15px 0px 20px 0px", color:"white",fontSize:'20px'}}>
 				Processed dataset of epilepsy occurrences with AI models<br />such as transfer learning, regression learning, decision tree, <br />logistic regression, support vector machine.
 			</div>
 		</div>
 			
 		<div className = "htb" style={{padding:"15px 0px 0px 0px", color:"gold",fontSize:'40px'}}>
 			HACKTHEBOX (USERNAME: JOWCJO)
-			<div className = "htb2" style={{padding:"15px 0px 0px 0px", color:"white",fontSize:'20px'}}>
+			<div className = "htb2" style={{padding:"15px 0px 20px 0px", color:"white",fontSize:'20px'}}>
 				Managed to successfully root 10 retired<br /> machine/hacking systems.
 			</div>
 		</div>
@@ -182,30 +181,3 @@ Currently a year 4 student from National Technological University, very deeply i
 export default UseEffectBasics
 
 
-
-// Hook
-function useWindowSize() {
-	// Initialize state with undefined width/height so server and client renders match
-	// Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
-	const [windowSize, setWindowSize] = useState({
-	  width: undefined,
-	  height: undefined,
-	});
-	useEffect(() => {
-	  // Handler to call on window resize
-	  function handleResize() {
-		// Set window width/height to state
-		setWindowSize({
-		  width: window.innerWidth,
-		  height: window.innerHeight,
-		});
-	  }
-	  // Add event listener
-	  window.addEventListener("resize", handleResize);
-	  // Call handler right away so state gets updated with initial window size
-	  handleResize();
-	  // Remove event listener on cleanup
-	  return () => window.removeEventListener("resize", handleResize);
-	}, []); // Empty array ensures that effect is only run on mount
-	return windowSize;
-  }

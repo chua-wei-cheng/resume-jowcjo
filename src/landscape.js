@@ -16,7 +16,7 @@ const UseEffectBasics = () => {
 	return(
 		<>
 		
-        <h1>if you are using your handphone, pls use landscape mode for better viewing!!!</h1>
+        <h1 style={{ backgroundColor:"rgba(0, 181, 204, 1)", textAlign:"center"}}>if you are using your handphone, pls use landscape mode!!!</h1>
         
         </>
 

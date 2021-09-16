@@ -18,7 +18,7 @@ html,body
     background-attachment: fixed; 
     background-position: center;
     background-size: cover;
-    overflow-x: hidden;
+    overflow-x: auto;
     position: relative;
   }
 
@@ -93,15 +93,14 @@ li {
 
 .python{
 
-    margin: 0;
-    padding: 0em;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px ;
     background: url("./picture/maze4.JPG");
     width: 100vw;
-    height : 50vh;
+    height : 60vh;
     background-repeat: no-repeat; 
     background-position: center;
     background-size: cover;
-    overflow-x: hidden;
     position: relative;
     text-align: center;
 }
@@ -128,13 +127,17 @@ li {
     padding: 0em;
     background-color:rgba(0, 0, 0, 0.771);
     width: 100vw;
-    height : 50vh;
+    height : 60vh;
     background-repeat: no-repeat; 
     background-position: center;
     background-size: cover;
-    overflow-x: hidden;
     position: relative;
     text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
 }
 
 .dsai2 { 
@@ -157,11 +160,10 @@ li {
     padding: 0em;
     background: url("./picture/htb.JPG");
     width: 100vw;
-    height : 50vh;
+    height : 60vh;
     background-repeat: no-repeat; 
     background-position: center;
     background-size: cover;
-    overflow-x: hidden;
     position: relative;
     text-align: center;
 }
@@ -203,3 +205,10 @@ li {
     position: relative;
 }
     
+
+
+.positioning{
+    float: left;
+    margin: 0 1.5%;
+    width: 30%;
+}
