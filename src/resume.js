@@ -30,7 +30,7 @@ const UseEffectBasics = () => {
 		</div>
 		<div className = "gettoknowme">
 			<div style={{padding:"15px 0px 0px 0px", color:"gold",fontSize:'40px'}}>
-				GET TO KNOW YOU!!
+				GET TO KNOW ME!!
 			</div>
 			<div style={{padding:"30px 00px 20px 0px", color:"white",fontSize:'15px'}}>
 				My Background
