@@ -14,6 +14,8 @@ import { useState, useEffect } from "react";
 
 const UseEffectBasics = () => {
 	const size = useWindowSize();
+
+
 	return(
 		<>
 		
