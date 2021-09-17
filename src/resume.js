@@ -112,8 +112,8 @@ Currently a year 4 student from National Technological University, very deeply i
 			</div>
 		</div>
 
-		<div className = "python" style={{padding:"15px 0px 0px 0px", color:"gold",fontSize:'40px'}}>
-			PYTHON
+		<div className = "python" style={{padding:"15px 0px 0px 0px", color:"gold",fontSize:'40px', textDecoration: "none"}}><a href="https://github.com/chua-wei-cheng/maze_solver">
+			PYTHON</a>
 			<div className = "python2" style={{padding:"15px 0px 20px 0px", color:"white",fontSize:'20px'}}>
 				Maze solver with a customized depth-first-search algorithm.<br />
 
@@ -131,8 +131,8 @@ Currently a year 4 student from National Technological University, very deeply i
 			</div>
 		</div>
 			
-		<div className = "htb" style={{padding:"15px 0px 0px 0px", color:"gold",fontSize:'40px'}}>
-			HACKTHEBOX (USERNAME: JOWCJO)
+		<div className = "htb" style={{padding:"15px 0px 0px 0px", color:"gold",fontSize:'40px'}}><a href="https://app.hackthebox.eu/profile/186613">
+			HACKTHEBOX (USERNAME: JOWCJO)</a>
 			<div className = "htb2" style={{padding:"15px 0px 20px 0px", color:"white",fontSize:'20px'}}>
 				Managed to successfully root 10 retired<br /> machine/hacking systems.
 			</div>
@@ -169,7 +169,7 @@ Currently a year 4 student from National Technological University, very deeply i
 				<a href="https://www.linkedin.com/in/chua-wei-cheng/">click down for linkedin</a>
 			</div>
 			<div>
-				©2020 by Jowcjo. Proudly created with <del>Wix</del><b>jowcjo</b>.com
+				©2020 by Jowcjo. Proudly created with <del>Wix</del><b>Wei Cheng</b>
 			</div>
 		</div>
 
